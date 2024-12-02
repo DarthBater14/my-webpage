@@ -18,4 +18,6 @@ const template = `
     <p>Author: {{author}}</p>
 `;
 
-
+// Example usage
+const rendered = renderTemplate(template, data);
+console.log(rendered);
